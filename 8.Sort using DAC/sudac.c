@@ -156,7 +156,7 @@ int main(int argc, char *argv[])
     }
     MPI_Barrier(MPI_COMM_WORLD);
 
-    /* TREE-BASED GLOBAL MERGE (pairwise, synchronized with barriers) */
+    
     int step = 1;
     int active = 1; /* stay in loop to participate in barriers even after sending */
     while (step < size)

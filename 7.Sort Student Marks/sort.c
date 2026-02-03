@@ -196,7 +196,7 @@ int main(int argc, char *argv[])
         fflush(stdout);
 
         free(temp);
-        free(temp);
+
     }
 
     if (local_marks) free(local_marks);
